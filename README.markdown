@@ -120,7 +120,7 @@ Data conversion
 Authors
 -------
 
-**Tanel Suurhans** (<http://twitter.com/tanelsuurhans>)
+**Tanel Suurhans** (<http://twitter.com/tanelsuurhans>)  
 **Tarmo Lehtpuu** (<http://twitter.com/tarmolehtpuu>)
 
 License
