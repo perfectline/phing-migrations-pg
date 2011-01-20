@@ -72,6 +72,14 @@ class MigrationTask extends Task {
 
         sort($files);
 
+        $version = (int) $this->getProject()->getProperty('migration.version');
+
+        if ($version == 0) {
+            $version = 999;
+        }
+
+        $files = array_slice($files, 0, min(count($files), $version));
+
         $this->connect();
         $this->begin();
 

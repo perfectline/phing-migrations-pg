@@ -46,6 +46,14 @@ Add MigrationTask.php to your project:
     </project>
 
 
+Execution
+---------
+
+*Run all migrations:*
+    phing db_migrate
+
+*Run migrations upto a specific version:*
+    phing -Dmigration.version=4 db_migrate
 
 Basic DDL
 ---------
